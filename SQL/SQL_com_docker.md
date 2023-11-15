@@ -12,7 +12,7 @@ vamos criar uma rede dedicada para a nossa aplicação.
 No seu terminal digite:
 
 ```bash
-docker network create --drive bridge nome-da-rede
+docker network create --driver bridge nome-da-rede
 ```
 
 Esse comando criará uma rede no Docker, denominada "nome-da-rede". Com a rede estabelecida,
